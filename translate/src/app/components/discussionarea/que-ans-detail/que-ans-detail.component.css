@@ -1,0 +1,176 @@
+#DetailHeader{
+    width: 95%;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 8px; */
+}
+
+#DetailHeader a{
+    text-decoration: none;
+    text-align: center;
+	float: left;
+}
+
+#QAReturn{
+    width: 15%;
+    height: 26px;
+    color: #169BD5;
+    padding: 10px 2px;
+    display: block;
+    float: left;
+}
+
+#DeHeadQA{
+    width: 78%;
+    background-color: #f2f2f2;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+	float: left;
+}
+
+#DeHeadQA a{
+    width: 48%;
+	height: 26px;
+    color: black;
+    padding: 2px;
+}
+
+#DeHeadQA a:hover{
+    font-weight: bolder;
+}
+
+#QAMyQue{
+    /* width: 48%; */
+    border-right: 1px solid black;
+}
+
+/* #QAMyAns{
+    width: 48%;
+} */
+
+.detailBody{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.detailBody a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.List{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Image{
+    width: 30px;
+    height: 28px;
+    padding: 2px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
+/* .Image a{
+
+} */
+
+/* .List a{
+    width: 15%;
+    display: block;
+    float: left;
+    
+} */
+
+.Nickname{
+    font-size: 13px;
+}
+
+.LastTime{
+    font-size: 11px;
+}
+
+.ReplyContent{
+    clear: both;
+}
+.ReplyContent h2,.ReplyContent p{
+    margin: 2px;
+
+}
+
+.TailData{
+    padding: 2px;
+    font-size: 12px;
+}
+
+/* #Queorder span,#Ansorder span{
+    width: 20%;
+    padding: 2px;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    float: left;
+} */
+
+#WantToQue{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-top: 1px solid #aaaaaa;
+    /* border: 1px solid black; */
+    /* padding: 20px 20px; */
+}
+
+input{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: 1px solid #aaaaaa;
+    display: block;
+}
+
+textarea{
+    width: 88%;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border: 1px solid #aaaaaa;
+    display: block;
+}
+
+button{
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+    padding: 10px;
+    border: 0px;
+    background-color: #169BD5;
+    color: #ffffff;
+    display: block;
+    border-radius: 5px;
+}

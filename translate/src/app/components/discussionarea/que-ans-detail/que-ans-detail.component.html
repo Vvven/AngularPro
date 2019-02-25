@@ -1,0 +1,13 @@
+
+<!-- <div *ngIf="QAStatus!=3" > -->
+
+  <!-- 提问、回答 头部 -->
+  <div id="DetailHeader">
+    <a id="QAReturn" (click)="detailReturn()" [routerLink]="[ '/discussion/myqueans' ]">&lt;返回</a>
+    <span id="DeHeadQA">
+      <a id="QAMyQue" (click)="detailMyQue()" [routerLink]="[ '/queansdetail/myquestion' ]">我的提问</a>
+      <a id="QAMyAns" (click)="detailMyAns()" [routerLink]="[ '/queansdetail/myanswer' ]">我的回答</a>
+    </span>
+  </div>
+
+  <router-outlet></router-outlet>

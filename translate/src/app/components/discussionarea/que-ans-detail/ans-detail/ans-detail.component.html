@@ -1,0 +1,74 @@
+<!-- *ngIf="QAStatus==2"  -->
+
+
+  <!-- 回答列表 -->
+<div class="detailBody">回答列表
+    <!-- <div class="List">
+        <div class="Info">
+          <div class="Image">
+                  <img width="28px" height="28px" src="../../../../assets/images/index/u159.png" >
+            </div>
+            
+            <div class="NameTime">
+              <div class="Nickname">nickname</div>
+              <div class="LastTime">two hours ago</div>
+            </div>
+            
+        </div>
+         
+        <div class="ReplyContent">
+          <h2>title</h2>
+          <p>jsjhskdfhjsdhfjjdskh
+            <br>
+            sdfhskjdhfksjhkfj
+            <br>
+            kjshfkjshdfkjshjkksjhf....
+          </p>
+        </div>
+        
+        <div class="TailData">
+          <span>replies:10</span>&nbsp;
+          <span>visit:234</span>&nbsp;
+          <span>collection:5</span>
+        </div>
+    </div> -->
+
+    <ul>
+      <li *ngFor="let item of AnsList;let key=index" [hidden]="key>this.DisplayCount" >
+        <div id="Ansorder">
+
+           <a [routerLink]="[ '/' ]">
+                <div class="List">
+                  <div class="Info">
+                      <div class="Image">
+                            <img width="28px" height="28px" src="../../../../assets/images/index/u159.png" >
+                      </div>
+                      
+                      <div class="NameTime">
+                        <div class="Nickname">{{this.UserName}}</div>
+                        <div class="LastTime">two hours ago</div>
+                      </div>
+                      
+                  </div>
+                   
+                  <div class="Content">
+                    <h3>{{item.replycontent}}</h3>
+                    <span>{{item.floor}}楼</span>
+                  </div>
+                  
+                </div>
+              </a>
+          
+        </div>
+      </li>
+
+      <li>
+        <div id="loadmore">
+          <a (click)="loadMore()">
+          <span>加载更多...</span>
+        </a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
