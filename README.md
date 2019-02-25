@@ -18,7 +18,7 @@
 
 ## my-question-answer
 
-##### 我的问答首页
+- 我的问答首页
 
 ```
 // 个人信息
@@ -50,13 +50,13 @@
 
 ## que-ans-detail
 
-##### 回答列表与提问列表详情
+- 回答列表与提问列表详情
 
 其实主要是放一个头部
 
 ### ans-detail
 
-##### 回答列表
+- 回答列表
 
 ```
   // 个人信息
@@ -88,7 +88,7 @@
 
 ### que-detail
 
-##### 提问列表
+- 提问列表
 
 ```
   // 个人信息
@@ -96,7 +96,7 @@
   public UserName:string='qq_sasx';
   public MyQueCount:number=3;
 
-  // 回答 列表
+  // 提问 列表
   public Userinfo:any;
   public QueList:any;
 
@@ -120,7 +120,7 @@
 
 ## to-queation
 
-##### 提问页面
+- 提问页面
 
 ```
 // 新增主贴信息
