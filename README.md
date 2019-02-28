@@ -2,13 +2,9 @@
 
 #### 前言
 
-怪我忘记push了 。。orz。。我的锅。。
-
 组件名字略长。。有些是简写
 
-可下载Typora观看
-
-**以下为速查信息**
+**以下为大概的速查信息**
 
 # discussionarea组件下
 
@@ -129,6 +125,9 @@
   public TopicContent:string='';
   public TopicLabel:any[]=[];
 ```
+
+
+
 
 ```
 // 新增主贴函数
