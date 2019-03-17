@@ -17,6 +17,8 @@ export class ToQuestionComponent implements OnInit {
   public TopicContent:string='';
   public TopicLabel:any[]=[];
 
+  public LoginStatus:boolean=false;
+
   constructor(public router:Router,public http:HttpClient) { }
 
   ngOnInit() {
