@@ -21,6 +21,17 @@ export class ToQuestionComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+
+  // 处理主贴内容格式
+  addContentHTML(e){
+    if(e.KeyCode==32){
+      this.TopicContent += " ";
+    }
+    if(e.KeyCode==13){
+      this.TopicContent += "<br>";
+    }
+  }
 
   // 添加主贴
   addTopics(){
